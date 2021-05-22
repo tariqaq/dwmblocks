@@ -2,7 +2,8 @@
 static const Block blocks[] = {
 	/*Icon*/			/*Command*/									/*Update Interval*/	/*Update Signal*/
 // battery
-    //{"^c#61afef^  ^c#abb2bf^",	 "cat /sys/class/power_supply/BAT0/capacity | awk '{print $0\"%\"}'",		60,			0},
+    //{"^c#61afef^  ^c#abb2bf^",	 "cat /sys/class/power_supply/BAT1/capacity | awk '{print $0\"%\"}'",		60,			0},
+    {"",	                        "~/.local/bin/battery",		6,			0},
 // internet connection
 	{"",                            "~/.local/bin/dwmnet",		                                                5,			0},
 // cpu usage
