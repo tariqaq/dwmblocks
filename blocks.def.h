@@ -13,7 +13,7 @@ static const Block blocks[] = {
 // hdd usage
 	{"^c#c678dd^ ^c#abb2bf^",      "df -h | awk 'FNR == 4 {print $4\"B\"}'",					                10,			0},
 // packages to update
-	{"^c#61afef^  ^c#abb2bf^",	    "checkupdates | wc -l | awk '{print $0 \" pkg\"}'",				            3600,		1},
+	{"^c#61afef^  ^c#abb2bf^",	    "checkupdates | wc -l | awk '{print $0 \" pkgs\"}'",				            3600,		1},
 // date
 	{"^c#d19a66^ ^c#abb2bf^", 	    "date '+%a, %d. %b' ",								                        5,			0},
 // clock
